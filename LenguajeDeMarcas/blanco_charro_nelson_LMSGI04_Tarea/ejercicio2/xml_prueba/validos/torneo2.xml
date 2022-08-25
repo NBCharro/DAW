@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE torneo SYSTEM "blanco_charro_nelson_torneo.dtd">
+
+<torneo edicion="2001" anteriorGanador="D32">
+  <participante codigo="D12" compañero="D42">
+    <nombre>Ignacio</nombre>
+    <edad>48</edad>
+    <pais>Brasil</pais>
+  </participante>
+
+  <participante codigo="D22" compañero="D32">
+    <nombre>Sofia</nombre>  
+    <edad>81</edad>
+    <pais>España</pais>
+  </participante>
+
+  <participante codigo="D32" compañero="D22">
+    <nombre>Vanesa</nombre>
+    <edad>67</edad>
+    <pais>Portugal</pais>
+    <cabezaDeSerie/>
+  </participante>
+
+  <participante codigo="D42" compañero="D12">
+    <nombre>Belinda</nombre>  
+    <edad>65</edad>
+    <pais>Francia</pais>
+  </participante>
+
+</torneo>

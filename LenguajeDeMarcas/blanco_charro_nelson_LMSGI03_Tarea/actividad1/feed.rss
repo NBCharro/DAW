@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+   <channel>
+      <title>Mejores blogs de programacion</title>
+      <description>Ejemplo de un RSS donde se muestran los mejores blogs de programacion</description>
+      <link>https://wwww.sitioWeb.es/</link>
+      <item>
+         <title>Picando codigo</title>
+         <description>Picando código es un blog personal que pertenece a Fernando Briano, un programador entusiasta con amplio conocimiento sobre el tema.</description>
+         <link>https://wwww.sitioWeb.es/</link>
+         <pubDate>Thu, 06 Jan 2022 23:00:00 GMT</pubDate>
+      </item>
+      <item>
+         <title>Linea de codigo</title>
+         <description>En Línea de Código encuentras información sobre javascript a través de una interfaz bastante amigable y visualmente básica</description>
+         <link>https://wwww.sitioWeb.es/</link>
+         <pubDate>Fri, 07 Jan 2022 15:00:00 GMT</pubDate>
+      </item>
+      <item>
+         <title>La web del programador</title>
+         <description>La web del programador es un sitio especializado en programación online que cuenta con una amplia comunidad que te ofrece contenido desde el nivel básico hasta profesional</description>
+         <link>https://wwww.sitioWeb.es/</link>
+         <pubDate>Tue, 11 Jan 2022 15:00:00 GMT</pubDate>
+      </item>
+   </channel>
+</rss>
+

@@ -1,0 +1,123 @@
+body {
+    background-image: url('./images/fondoppal.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+* {
+    margin: 0;
+}
+h1 {
+    font-family: Arial;
+    font-size: 7vw;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+h2 {
+    font-family: Arial;
+    font-size: 4vw;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px white;
+}
+
+/* APARTADO PRINCIPAL */
+#apartadoPrincipal {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+#apartadoPrincipal i {
+    /* font-family: 'Montserrat', sans-serif;  Si uso Montserrat me cambia el icono
+	*/
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    font-size: 4vw;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+#apartadoPrincipal .linea {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+}
+#apartadoPrincipal .marco {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 25%;
+}
+#apartadoPrincipal .linea a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    color: white;
+    text-shadow: 1px 1px black;
+    display: block;
+}
+#apartadoPrincipal .linea img {
+    float: left;
+}
+
+/* APARTADO CONOCENOS y APARTADO QUE HACEMOS */
+#conocenos,
+#queHacemos {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+#conocenos img,
+#queHacemos img {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 25%;
+}
+#conocenos .linea,
+#queHacemos .linea {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+}
+#conocenos h3,
+#queHacemos h3 {
+    font-size: 2vw;
+    /* El margen siguiente es para que coincida con la imagen del enunciado, el resto de los margenes son 0 */
+    margin-bottom: 15px;
+}
+#conocenos .info,
+#queHacemos .info {
+    font-size: 2vw;
+    color: purple;
+    float: left;
+    /* El margen siguiente es para que coincida con la imagen del enunciado, el resto de los margenes son 0 */
+    margin-right: 5px;
+}
+#conocenos .volver,
+#queHacemos .volver {
+    font-size: 3vw;
+    float: right;
+    color: purple;
+}
+#conocenos a:visited .volver,
+#queHacemos .volver {
+    color: grey;
+}
+/* APARTADO CONOCENOS */
+#conocenos li {
+    font-family: sans-serif;
+    font-size: 1.5vw;
+    list-style-type: circle;
+}
+/* APARTADO QUE HACEMOS */
+#queHacemos li {
+    font-family: sans-serif;
+    font-size: 1.5vw;
+    list-style-type: square;
+}

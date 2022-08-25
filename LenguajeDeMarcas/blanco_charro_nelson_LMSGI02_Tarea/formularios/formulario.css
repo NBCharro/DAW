@@ -1,0 +1,59 @@
+body {
+    background-image: url('../images/fondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+h1 {
+    width: 100%;
+    text-align: center;
+}
+form {
+    width: 65%;
+    position: relative;
+    left: 17.5%;
+}
+fieldset {
+    margin-bottom: 25px;
+}
+input,
+label {
+    margin: 10px 0;
+}
+input:focus {
+    border: 2px solid #000;
+}
+.datosPrincipales label {
+    display: inline-block;
+    width: 250px;
+}
+.cultivo {
+    width: 50%;
+    margin-left: 25%;
+}
+.cultivo label,
+.cultivo input {
+    width: 100%;
+}
+.extras label {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+}
+.comentarios textarea {
+    margin-left: 25%;
+}
+.comentarios label,
+.comentarios input {
+    display: inline-block;
+    width: 30%;
+}
+.envio input {
+    width: 25%;
+}
+.envio {
+    margin-left: 25%;
+    border: 0;
+}

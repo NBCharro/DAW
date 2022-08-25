@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<impresoras>
+  <impresora numSerie="D36" tipo="tinta" compra="2019">
+    <marca>HP</marca>
+    <modelo>8012e</modelo>
+    <peso>3.01</peso>
+    <tamaño>A3</tamaño>
+    <tamaño>A4</tamaño>
+    <tamaño>A5</tamaño>
+    <cartucho>Filamentos</cartucho>
+    <enred/>
+  </impresora>
+
+  <impresora numSerie="D37" tipo="3D" compra="2021">
+    <marca>Elegoo</marca>
+    <modelo>Mars 2 Pro</modelo>
+    <peso>8</peso>
+    <tamaño>A6</tamaño>
+    <cartucho>C-21AB</cartucho>
+  </impresora>
+
+  <impresora numSerie="D38" tipo="laser">
+    <marca>Brother</marca>
+    <modelo>DCPL2530DW</modelo>
+    <peso>2</peso>
+    <tamaño>A4</tamaño>
+    <tamaño>A5</tamaño>
+    <cartucho>C-45P</cartucho>
+  </impresora>
+</impresoras>
